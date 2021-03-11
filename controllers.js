@@ -28,6 +28,14 @@ exports.getUsers = (req, res) => {
 
 }
 
+exports.createPriority = (req, res) => {
+
+}
+
+exports.updatePriority = (req, res) => {
+    
+}
+
 exports.createTask = (req, res) => {
 
 }
@@ -36,3 +44,6 @@ exports.updateTask = (req, res) => {
 
 }
 
+exports.deleteTask = (req, res) => {
+
+}
