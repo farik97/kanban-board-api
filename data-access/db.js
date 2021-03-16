@@ -22,7 +22,7 @@ const con = db.createConnection({
   port: 3306,
   user: "root",
   password: "jff08021997",
-  database: "frontEndTest",
+  database: "frontTestApi",
 });
 
 exports.createUser = (username, password, salt, fullname, age, isAdmin) => {
