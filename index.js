@@ -19,7 +19,7 @@ const { validateEmpty} = require("./lib/helpers");
 
 app.use(cors());
 app.use(bodyParser.json());
-app.listen(3000);
+app.listen(4000);
 
 //  user routes
 app.post("/api/user", validateEmpty, createUser); // done
