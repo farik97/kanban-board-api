@@ -97,7 +97,7 @@ exports.getTasks = async (req, res) => {
 
 exports.getTask = async (req, res) => {
   const token = typeof req.headers.authorization == 'string' && req.headers.authorization.trim().length == 12 ? req.headers.authorization : false
-  const taskId = typeof req.body.taskId == 'number' && req.body.taskId > 0 ? req.body.taskId : false
+  const taskId = typeof req.body.taskId == 'number' && req.body.taskId > 0 ? req.body.taskId : false;
   if (token) {
     if (taskId) { 
       getTask(token,taskId)

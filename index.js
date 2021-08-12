@@ -32,7 +32,7 @@ app.delete("/api/token", logout); // done
 //  task routes
 app.post("/api/task", validateEmpty, createTask); //  done
 app.put("/api/task", validateEmpty, updateTask); // done
-app.post("/api/task", validateEmpty, getTask) //
+app.post("/api/getTask", validateEmpty, getTask) //
 app.put("/api/changeStage", validateEmpty, changeStage) // done
 app.get("/api/tasks", getTasks) // done
 
